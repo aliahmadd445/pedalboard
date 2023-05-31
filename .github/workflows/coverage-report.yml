@@ -37,7 +37,7 @@ jobs:
               with:
                   # Upload the coverage directory from the repository
                   #path: './coverage/lcov-report'
-                  path: 'a.tar'
+                  path: '/packages'
             - name: Deploy to GitHub Pages
               id: deployment
               uses: actions/deploy-pages@v1
